@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titulo da aba da pagina -->
+    <title>Fabio Braz Rodrigues</title>
+
+    <style>
+        /* layout da pagina */
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        /* formatacao do cabecalho */
+        header {
+            width: 100%;
+            height: 30px;
+            background-color: #506E6A;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* formatacao do texto do menu principal */
+        a{
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 20px 10px;
+            color: white;
+            text-align: center;
+        }
+
+        /* estilo do corpo principal da pagina */
+        body{
+            font-family: arial;
+            background: url("Fundo.jpg");
+            background-size: 100%;
+        }
+
+        /* remocao do estilo da lista */
+        ul{
+            list-style: none;
+        }
+
+        /* estilos para a navegacao */
+        nav{
+            background-color: gray ;
+            width: 300px;
+            height: 700px;
+        }
+
+        /* efeito do mouse na navegacao */
+        a:hover{
+            background-color: #617e7a;
+        }
+
+        /* formatacoes do subtitulo */
+        div{
+            position: absolute;
+            left:350px;
+            top:100px;
+            font-size: 14px;
+            font-family: 'Bell MT', Times, serif;
+            color: #02463d;
+        }
+
+        /* posicionamentos e efeitos da imagem python */
+        .python{
+            position: absolute;
+            left:380px;
+            top:200px;
+            width: 200px;
+            height: 150px;
+        }    
+        .python:hover{
+                transform: scale(1.1); /* Aumenta a imagem em 10% */
+                filter: hue-rotate(180deg) brightness(0.7) saturate(1.5); /* Altera a cor e brilho */
+            }
+        .textopython{
+            position: absolute;
+            left:360px;
+            top:360px;
+        }
+
+        /* posicionamentos e efeitos da imagem java */
+        .java{
+            position: absolute;
+            left:730px;
+            top:200px;
+            width: 200px;
+            height: 150px;
+        }
+        .java:hover{
+                transform: scale(1.1); /* Aumenta a imagem em 10% */
+                filter: hue-rotate(180deg) brightness(0.7) saturate(1.5); /* Altera a cor e brilho */
+            }
+        .textojava{
+            position: absolute;
+            left:690px;
+            top:360px;
+        }
+
+        /* posicionamentos e efeitos da imagem conociendote */
+        .musica{
+            position: absolute;
+            left:1080px;
+            top:200px;
+            width: 200px;
+            height: 150px;
+        }
+        .musica:hover{
+                transform: scale(1.1);
+                filter: hue-rotate(180deg) brightness(0.7) saturate(1.5);
+            }
+        .textomusica{
+            position: absolute;
+            left:1040px;
+            top:360px;
+        }
+
+        /* formatacoes do texto principal */
+        h3{
+            position: absolute;
+            left:350px;
+            top:500px;
+            color: #02463d;   
+        }
+    </style>
+</head>
+
+<body>
+    <!-- texto do cabecalho -->
+    <header>
+        <h2>Portfólio de Fabio Braz Rodrigues</h2>
+    </header>
+
+    <!-- menu de navegacao -->
+    <nav>
+        <ul><br>
+            <li><a href="index.html">SOBRE MIM</a></li>
+            <li><a href="formacao.html">FORMAÇÃO</a></li>
+            <li><a href="portfolio.html">PORTFÓLIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+
+     <!-- subtitulo -->
+    <div>
+        <h1>Portfólio:</h1>
+    </div>
+
+    <!-- links e referencia das imagens -->
+    <a href="https://github.com/FabioRodrigues8085/Programa-simples-Python.git">
+        <img src="python.jpg" alt="Pedido de sorvete simples no Python." class="python">
+    </a>
+    <p class="textopython">Programa simples em Python que<br> simula um pedido de sorvete.</p>
+    
+    <a href="https://github.com/FabioRodrigues8085/Programa-Simples-Java.git">
+        <img src="java.jpg" alt="Exemplo de um cofrinho no Java." class="java">
+    </a>
+    <p class="textojava">Código simples que simula um cofrinho<br> de moedas, desenvolvido na linguagem<br> Java.</p>
+
+    <a href="https://www.youtube.com/watch?v=ZqbN814AjlI">
+        <img src="conociendote.jpg" alt="Participação na música Conociendote." class="musica">
+    </a>
+    <p class="textomusica">Participação na gravação do acordeon<br> na musica 'Conociendote'.</p>
+
+    <!-- texto principal -->
+    <h3>Para conhecer mais sobre os trabalhos desenvolvidos, clique na imagem para que você seja direcionado.</h3>
+</body>
+</html>
